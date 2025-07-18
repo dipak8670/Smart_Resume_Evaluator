@@ -1,0 +1,28 @@
+# :white_check_mark: Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+--version/
+# :white_check_mark: Logs
+logs/
+*.log
+*.log.*
+# :white_check_mark: dotenv/env files (secrets)
+.env
+.env.*
+# :white_check_mark: OS/IDE-specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# :white_check_mark: Test coverage
+coverage/
+# :white_check_mark: Build output
+dist/
+build/
+# :white_check_mark: Husky
+.husky/_/
+# :white_check_mark: Optional: ignore uploads if storing locally
+uploads/
