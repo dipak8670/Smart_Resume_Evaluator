@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require("path");
 
 const { extractTextFromPDF } = require("../services/pdfParser.service");
 const { scoreResumeText } = require("../services/score.service");
